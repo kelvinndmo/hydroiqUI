@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-body mb-3 mt-3">
+                <h2>Add Device</h2>
+                <form [formGroup]="deviceForm" (ngSubmit)="save()">
+                    <div class="form-group">
+                        <label>serial</label>
+                        <input type="text" readonly class="form-control" name="serial" required minlength="2"
+                            formControlName="serial" />
+                    </div>
+                    <div class="form-group">
+                        <label>description</label>
+                        <input type="text" class="form-control" name="description" required minlength="2"
+                            formControlName="description" />
+                    </div>
+                    <div class="form-group">
+                        <label>Manufacturer</label>
+                        <select class="form-control" name="manufacturer">
+                            <option value="1">Muthaiga Industries</option>
+                        </select>
+
+                    </div>
+
+                    <button class="btn btn-block btn-success mb-3 mt-3" (click)="updateDevice()">
+                        Update Device
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
