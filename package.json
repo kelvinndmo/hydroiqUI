@@ -9,10 +9,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~9.0.5",
+    "@angular/compiler-cli": "~9.0.5",
     "@angular/animations": "~9.0.5",
     "@angular/common": "~9.0.5",
     "@angular/compiler": "~9.0.5",
@@ -51,7 +53,7 @@
     "typescript": "~3.7.5"
   },
   "engines": {
-    "node": "6.11.0",
-    "npm": "3.10.10"
+    "node": "13.10.1",
+    "npm": "6.13.7"
   }
 }
