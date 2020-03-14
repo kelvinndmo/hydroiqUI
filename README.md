@@ -9,6 +9,9 @@ HydroIQ is a device manager application that enables you to create, get, update 
 
 #### install dependencies
   - npm install
+  
+#### start developemtn server
+  - npm run start:dev
 
 ## Build
 
