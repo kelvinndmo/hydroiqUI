@@ -5,7 +5,7 @@ import { DeviceResolver } from './resolvers/product.resolver';
 import { DevicesComponent } from './components/devices/devices.component';
 
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: "",
     component: DevicesComponent,

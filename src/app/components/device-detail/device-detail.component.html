@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <div class="card card-body mb-3 mt-3">
                 <h2>Add Device</h2>
-                <form [formGroup]="deviceForm" (ngSubmit)="save()">
+                <form [formGroup]="deviceForm">
                     <div class="form-group">
                         <label>serial</label>
                         <input type="text" readonly class="form-control" name="serial" required minlength="2"

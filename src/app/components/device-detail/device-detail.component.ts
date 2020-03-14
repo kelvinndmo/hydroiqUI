@@ -28,9 +28,6 @@ export class DeviceDetailComponent implements OnInit {
     })
   }
 
-  save() {
-    console.log("heey")
-  }
 
   updateDevice() {
     this.spinner.show()
