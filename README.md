@@ -1,4 +1,4 @@
-# HydroIQ
+# HydroIQ  Frontend
 
 HydroIQ is a device manager application that enables you to create, get, update and delete devices.
 
