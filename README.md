@@ -1,17 +1,22 @@
-# HydroIQ  Frontend
+# HydroIQ Frontend
 
 HydroIQ is a device manager application that enables you to create, get, update and delete devices.
 
 ## Local Setup
-  - node version 13.10.1
-  
+
+- node version 13.10.1
+
 ### Installation
 
+- git clone git@github.com:kelvinndmo/hydroiqUI.git
+
 #### install dependencies
-  - npm install
-  
+
+- npm install
+
 #### start developemtn server
-  - npm run start:dev
+
+- npm run start:dev
 
 ## Build
 
